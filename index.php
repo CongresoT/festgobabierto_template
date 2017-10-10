@@ -143,7 +143,7 @@ $doc->addScript('templates/' . $this->template . '/js/main.js');
 		</div>
         <?php if ($menu->getActive() == $menu->getDefault()): ?>
             <div class="container-fluid pageBottom">
-                Organizan:
+                <h4>Organizan</h4>
                 <div class="row">
                     <div class="col-xs-6 col-sm-4 col-md-2">
                         <a target="_blank"  href="">
@@ -176,7 +176,7 @@ $doc->addScript('templates/' . $this->template . '/js/main.js');
                         </a>
                     </div>
                 </div>
-                Apoyan:
+                <h4>Apoyan</h4>
                 <div class="row">
                     <div class="col-xs-6 col-sm-4 col-md-2">
                         <a target="_blank"  href="https://www.opengovpartnership.org/">
@@ -239,7 +239,7 @@ $doc->addScript('templates/' . $this->template . '/js/main.js');
                         </a>
                     </div>
                 </div>
-                Patrocinan:
+                <h4>Patrocinan</h4>
                 <div class="row">
                     <div class="col-xs-6 col-sm-4 col-md-2">
                         <a target="_blank"  href="">

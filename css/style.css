@@ -165,12 +165,25 @@ body {
 
 h1,h2,h3 {
 	font-family:'Oswald';
-	color:#1A012B;
 }
 
-h1{font-size:36px}
-h2{font-size:32px}
-h3{font-size:24px}
+h1 {
+    color:#BC278F;
+}
+h2 {
+    color:#EE6030;
+}
+h3 {
+    color:#EE6030;
+}
+h4 {
+    color:#EE6030;
+}
+
+h1{font-size:36px;}
+h2{font-size:32px;}
+h3{font-size:24px;}
+h4{font-size:20px;}
 
 
 .page-header{
