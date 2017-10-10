@@ -141,16 +141,132 @@ $doc->addScript('templates/' . $this->template . '/js/main.js');
 				<div class="hidden-xs col col-sm-1"></div>
 			</div>
 		</div>
-        <div class="container-fluid pageBottom">
-            <div class="row">
-                <div class="col-xs-12">
-                    <jdoc:include type="modules" name="pagePromoted" style="xhtml" />
+        <?php if ($menu->getActive() == $menu->getDefault()): ?>
+            <div class="container-fluid pageBottom">
+                Organizan:
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/organizadores/coop_alemana.jpg" alt="Cooperación Alemana - Deutsche Welle Akademie"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/organizadores/dw.gif" alt="Cooperación Alemana - Deutsche Welle Akademie"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/organizadores/logo_guatecambia.png" alt="Guatecambia"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/organizadores/logo-ct.png" alt="Congreso Transparente"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/organizadores/logo_munisabiertas.png" alt="Munis Abiertas"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/organizadores/url.jpg" alt="Universidad Rafael Landivar"/>
+                        </a>
+                    </div>
+                </div>
+                Apoyan:
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="https://www.opengovpartnership.org/">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/ogp.png" alt="Open Government Partnership"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="http://www.oas.org/es/">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/oea.gif" alt="Organización de los Estados Americanos"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/red_gobierno_abierto.png" alt="Red de Gobierno Abierto para Gobiernos Locales"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/red_academia.png" alt="Red Académica de Gobierno Abierto"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/carter_center.jpg" alt="The Carter Center"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="https://es.schoolofdata.org/">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/escuela_de_datos.png" alt="Escuela de Datos"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="http://www.gigapp.org/">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/gigapp.jpg" alt="Grupo de Investigación en Gobierno, Administración y Políticas Públicas"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/gigapaloza.png" alt="Gigappaloza"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="http://cceguatemala.org/">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/cce.png" alt="Centro Cultural España - Cooperación Española"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="http://cceguatemala.org/">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/cooperacion_espaniola.png" alt="Centro Cultural España - Cooperación Española"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="https://www.eventmobi.com/es/">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/eventmobi.png" alt="Eventmobi"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="http://sonica.gt/">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/sonica.png" alt="Sonica 106.9"/>
+                        </a>
+                    </div>
+                </div>
+                Patrocinan:
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/patrocinan/coop_alemana.jpg" alt="Cooperación Alemana - Deutsche Welle Akademie"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/patrocinan/dw.gif" alt="Cooperación Alemana - Deutsche Welle Akademie"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="https://www.ndi.org/">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/patrocinan/ndi.png" alt="National Democratic Institute"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="http://www.iri.org/">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/patrocinan/iri.png" alt="International Republican Institute"/>
+                        </a>
+                    </div>
                 </div>
             </div>
-		</div>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <?php endif; ?>
 		<div class="pageFooter">
-			<jdoc:include type="modules" name="pageFooter" style="xhtml" />
+            <jdoc:include type="modules" name="pageFooter" style="xhtml" />
 		</div>
 	</body>
 </html>
-
