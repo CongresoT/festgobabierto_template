@@ -7,6 +7,9 @@
     .page-header .row {
         position:relative;
     }
+    .newsfeed.jumbotron{
+        min-height:270px;
+    }
 }
 @media (min-width: 768px) { /*sm */
     .nav li {
@@ -109,39 +112,14 @@
 	background-color:#00AF9A;
 }
 
-.k2ItemsBlock .jumbotron, .userItemList .jumbotron{
+.newsfeed.jumbotron{
 	background-repeat:no-repeat;
 	background-size:cover;
 	color:#fff;
 }
 
-.k2ItemsBlock .jumbotron a, .userItemList .jumbotron a{
-    color:#fff;
-	margin-bottom:0;
-	font-family:'Oswald';
-	font-size:32px;
-}
-
-.k2ItemsBlock .jumbotron .moduleItemAuthor a {
-    font-family:'Roboto';
-    font-size:18px;
-}
-
-.pageBottom div .k2ItemsBlock ul li {
-    margin-bottom:0px;
-}
-
-.itemAttachmentsBlock {
-    background:#C5E589;
-}
-
-.article-promo {
-	background:yellow;
-	margin-bottom:20px;
-}
-
-div.catItemIsFeatured::before, div.userItemIsFeatured::before, div.itemIsFeatured::before {
-    content: "";
+h2.newsflash-title a, h2.newsflash-title a:visited, h2.newsflash-title a:hover, .home-text h2{
+    color:#BC278F;
 }
 
 
@@ -233,11 +211,6 @@ li:before {
     color: #333333;
 }
 
-.k2Pagination ul li:before {
-    content:"";
-}
-
-
 .navbar-nav li:before {
 	content: ""
 }
@@ -321,9 +294,16 @@ ul.nav.menu,
 .home-text {
     padding:20px;
 }
-.home-text h2, .home-text p{
+.home-text p{
     color: #00AF9A;
     text-align:justify;
 }
 
+h2.newsflash-title {
+    text-align:left;
+}
 
+
+.carousel-control {
+    background-image:none !important;
+}

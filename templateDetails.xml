@@ -22,6 +22,7 @@
         <position>countdown</position>
         <position>pageMenubar</position>
         <position>pageSearchbar</position>
+        <position>pageNewsflash</position>
         <position>pageContent</position>
         <position>pagePromoted</position>
         <position>pageMap</position>

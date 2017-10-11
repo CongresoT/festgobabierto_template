@@ -122,6 +122,11 @@ $doc->addScript('templates/' . $this->template . '/js/main.js');
                                 </p>
                             </div>
                         </div>
+                        <div class="col-xs-12 col-lg-6">
+                            <div class="home-text">
+                                <jdoc:include type="modules" name="pageNewsflash" style="xhtml" />
+                            </div>
+                        </div>
                     </div>
                     <jdoc:include type="modules" name="pageContent" style="xhtml" />
                     <?php
