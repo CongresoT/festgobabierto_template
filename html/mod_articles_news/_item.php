@@ -11,8 +11,8 @@ defined('_JEXEC') or die;
 
 $item_heading = 'h2';
 $document = JFactory::getDocument();
-$itemStyle = '#item-'.$item->id.' {background-image:linear-gradient(rgba(290, 95, 44, 0.25),rgba(290, 95, 44, 0.25)),url('.JUri::base().trim(json_decode($item->images)->image_fulltext).');}';
-$itemStyle .= '#item-'.$item->id.':hover {background-image:linear-gradient(rgba(290, 95, 44, 0.75),rgba(290, 95, 44, 0.75)),url('.JUri::base().trim(json_decode($item->images)->image_fulltext).');}';
+$itemStyle = '#item-'.$item->id.' {background-image:linear-gradient(rgba(0, 23, 130, 0.15),rgba(0, 23, 130, 0.15)),url('.JUri::base().trim(json_decode($item->images)->image_fulltext).');}';
+$itemStyle .= '#item-'.$item->id.':hover {background-image:linear-gradient(rgba(0, 23, 130, 0.55),rgba(0, 23, 130, 0.55)),url('.JUri::base().trim(json_decode($item->images)->image_fulltext).');}';
 $document->addStyleDeclaration($itemStyle);
 ?>
 <div id="item-<?php echo $item->id; ?>" class="newsfeed jumbotron"> 

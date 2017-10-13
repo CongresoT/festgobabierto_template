@@ -35,7 +35,7 @@ $doc->addScript('templates/' . $this->template . '/js/main.js');
 <head>
     <jdoc:include type="head" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Oswald|Roboto" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Oxygen|Muli|Hind" rel="stylesheet"> 
 </head>
   <body>
 		<div class="container-fluid pageHead">

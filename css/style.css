@@ -138,11 +138,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family:'Hind';
 }
 
 
 h1,h2,h3 {
-	font-family:'Oswald';
+	font-family:'Muli';
 }
 
 h1 {
@@ -201,7 +202,7 @@ li {
 	display:block;
 }
 
-li:before {
+/*li:before {
     content: "\e142";
     font-family: 'Glyphicons Halflings';
     font-size: 12px;
@@ -213,7 +214,7 @@ li:before {
 
 .navbar-nav li:before {
 	content: ""
-}
+}*/
 
 
 .nav li a:hover, .nav li a:focus{
@@ -228,7 +229,7 @@ li:before {
 }
 
 .navbar-nav{
-	font-family:'PT Sans Narrow';
+	font-family:'Oxygen';
 	font-size:18px;
 }
 
@@ -250,7 +251,7 @@ a:hover {
       padding:10px;
       margin: 5px 0 20px 0;
       text-align:justify;
-      font-family:Helvetica;
+      font-family:Hind;
       color:#9B9896;
       background:#01102A;
       -webkit-border-radius: 5px ;
@@ -306,4 +307,19 @@ h2.newsflash-title {
 
 .carousel-control {
     background-image:none !important;
+}
+
+ul.ev_ul {
+    list-style-type: none;
+}
+#jevents_body .jev_listview .jev_listrow li {
+    border-width: 0 0 0 4px !important;
+}
+
+a.ev_link_row:hover {
+    color:#007B82 !important;
+}
+a.ev_link_row {
+    color:#007B82 !important;
+    font-size:18px !important;
 }
