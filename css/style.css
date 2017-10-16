@@ -323,3 +323,32 @@ a.ev_link_row {
     color:#007B82 !important;
     font-size:18px !important;
 }
+
+.jeventpage h2.contentheading {
+    display:none;
+}
+
+.jeventpage h2, .jev_evdt_header .jev_evdt_title{
+	font-family:'Muli';
+    font-size:32px;
+    color:#EE6030;
+    font-weight:normal;
+}
+
+.jeventpage p {
+    margin-top:15px;
+}
+
+#jevents_body {
+    border:none;
+    background-color:#fff;
+}
+
+#jev_maincal.jev_listview .jev_daysnames {
+    color:#EE6030 !important; 
+    font-size: 24px !important;
+    width:100% !important;
+    margin-top:25px !important;
+    background-color:#fff !important;
+    border-style:none !important;
+}

@@ -12,6 +12,21 @@ jQuery(window).scroll(function() {
     }
 }); 
 
+jQuery(document).ready(function(){
+     jQuery("#siteLogo img").hover(
+            function () {
+                            jQuery(this).css({ position: "relative" });
+                            jQuery(this).animate({ top: "-15" },50);
+                            jQuery(this).animate({ top: "0" },50);
+                            
+            }, 
+            function () {
+                            jQuery(this).css({ position: "inherit" });
+                            jQuery(this).animate({ top: "0" });
+            }
+        );
+});
+
 /*jQuery(window).scroll(function() {    
     var scroll = jQuery(window).scrollTop();
     if (scroll == 0) {
