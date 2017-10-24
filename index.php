@@ -115,10 +115,10 @@ $doc->addScript('templates/' . $this->template . '/js/main.js');
                             <div class="home-text">
                                 <h2>Por una Guatemala con ideas innovadoras</h2>
                                 <p>
-                                El primer festival de Gobierno abierto es un espacio en Guatemala para compartir experiencias, ideas e iniciativas sobre gobierno abierto y acceso a la información pública. Buscamos la participación de todos los sectores para juntos construir una Guatemala con ideas innovadoras.
+                                El primer Festival de Gobierno Abierto es un espacio en Guatemala para compartir experiencias, ideas e iniciativas sobre gobierno abierto y acceso a la información pública. Buscamos la participación de todos los sectores para juntos construir una Guatemala con ideas innovadoras.
                                 </p>
                                 <p>
-                                Tendremos conferencias, talleres, foros, desconferencias, pechakuchas y una visualizatón.
+                                Tendremos conferencias, talleres, foros, desconferencias y una visualizatón.
                                 </p>
                             </div>
                         </div>
@@ -236,6 +236,11 @@ $doc->addScript('templates/' . $this->template . '/js/main.js');
                     <div class="col-xs-6 col-sm-4 col-md-2">
                         <a target="_blank"  href="https://www.eventmobi.com/es/">
                             <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/eventmobi.png" alt="Eventmobi"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="https://www.pdh.org.gt/">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/pdh.png" alt="Procurador de los derechos humanos"/>
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-2">
