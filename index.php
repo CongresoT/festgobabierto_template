@@ -105,7 +105,7 @@ $doc->addScript('templates/' . $this->template . '/js/main.js');
                         </div>
                         <div class="col-xs-12 col-lg-6">
                             <div class="embed-responsive embed-responsive-4by3">
-                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/W0njU7rFgTM"></iframe>
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ug3-nli-2wQ"></iframe>
                             </div>
                         </div>
                     </div>
@@ -224,6 +224,16 @@ $doc->addScript('templates/' . $this->template . '/js/main.js');
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="https://www.facebook.com/CanadaenGuatemala/?fref=ts">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/canada.png" alt="Embajada de Canadá"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <a target="_blank"  href="https://www.pdh.org.gt/">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/pdh.png" alt="Procurador de los derechos humanos"/>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
                         <a target="_blank"  href="http://cceguatemala.org/">
                             <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/cce.png" alt="Centro Cultural España - Cooperación Española"/>
                         </a>
@@ -239,13 +249,13 @@ $doc->addScript('templates/' . $this->template . '/js/main.js');
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-2">
-                        <a target="_blank"  href="https://www.pdh.org.gt/">
-                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/pdh.png" alt="Procurador de los derechos humanos"/>
+                        <a target="_blank"  href="http://sonica.gt/">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/sonica.png" alt="Sonica 106.9"/>
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-2">
-                        <a target="_blank"  href="http://sonica.gt/">
-                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/sonica.png" alt="Sonica 106.9"/>
+                        <a target="_blank"  href="http://congresoabierto.org/">
+                            <img style="width:100%; display:table-cell; vertical-align:middle;" src="<?php echo $this->baseurl; ?>/templates/festgobabierto/images/logos/apoyan/acag.png" alt="Alianza para un Congreso Abierto en Guatemala (ACAG)"/>
                         </a>
                     </div>
                 </div>
